@@ -69,85 +69,70 @@ class Profile extends React.Component {
               <Card className="card-profile shadow mt--300">
                 <div className="px-4">
 
-              <Row className="justify-content-center text-center mb-lg pt-4">
-                <Col lg="8">
-                  <h2 className="display-3">Our Team</h2>
-                  <p className="lead text-muted">
-                   Our mission is to enable students interested in STEM 
-                   as well as other topics to access the resources and 
-                   education they need to thrive in this ever-changing world
-                  </p>
-                </Col>
-              </Row>
-              <Row className="mb-5">
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src="https://via.placeholder.com/200x200.png?text=ISL"
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">David Su</span>
-                        <small className="h6 text-muted">
-                          Outreach Director
-                        </small>
-                      </h5>
-                    </div>
-                  </div>
-                                    </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src="https://via.placeholder.com/200x200.png?text=ISL"
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">Jeffrey Zhang</span>
-                        <small className="h6 text-muted">Tech Director</small>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src="https://via.placeholder.com/200x200.png?text=ISL"
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">Andy Yang</span>
-                        <small className="h6 text-muted">Operation Director</small>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                  <div className="px-4">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src="https://via.placeholder.com/200x200.png?text=ISL"
-                      style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
-                      <h5 className="title">
-                        <span className="d-block mb-1">Deborah Gadri</span>
-                        <small className="h6 text-muted">Design Director</small>
-                      </h5>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-
+                  <Row className="justify-content-center text-center mb-lg pt-4">
+                    <Col lg="8">
+                      <h2 className="display-3">Our Team</h2>
+                      <p className="lead text-muted">
+                       Our mission is to enable students interested in STEM 
+                       as well as other topics to access the resources and 
+                       education they need to thrive in this ever-changing world
+                      </p>
+                    </Col>
+                  </Row>
+                  <Row className="mb-5">
+                    {(() => {
+                        let fields = [];
+                        let board = [{
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "David Su",
+                            title: ["Marketing Director"]
+                        }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "Jeffrey Zhang",
+                            title: ["Web Director"]
+                        }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "Andy Yang",
+                            title: ["Co-Founder", "Web Director", "Education Director"]
+                        }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "Kiratjit Singh",
+                            title: ["Co-Founder", "Social Outreach Director", "Operations Director"]
+                        }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "Jason Kim",
+                            title: ["Recruitment Director"]
+                        }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "Deborah Gadri",
+                            title: ["Design Director"]
+                        }
+                        ];
+                        for (let arg in board) {
+                            fields.push(
+                                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                                    <div className="px-4">
+                                        <img
+                                            alt="..."
+                                            className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                                            src={board[arg].photo}
+                                            style={{ width: "200px" }}
+                                        />
+                                        <div className="pt-4 text-center">
+                                            <h5 className="title">
+                                            <span className="d-block mb-1">{board[arg].name}</span>
+                                                <small className="h6 text-muted">
+                                                    {board[arg].title.map((title)=>(<>{title}<br/></>))}
+                                                </small>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </Col>
+                            )
+                        }
+                        return (<>{fields}</>);
+                    })()}
+                  </Row>
 
                 </div>
               </Card>

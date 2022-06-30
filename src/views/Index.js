@@ -293,7 +293,7 @@ class Landing extends React.Component {
                             <div className="d-flex flex-row flex-wrap">
                                 {(() => {
                                     let fields = [];
-                                    let other_classes = ["SAT/PSAT", "Algebra 1", "Algebra 2", "Geometry", "Pre-Calculus"];
+                                    let other_classes = ["English", "SAT/PSAT", "Algebra 1", "Algebra 2", "Geometry", "Pre-Calculus"];
                                     for (let arg in other_classes) {
                                         fields.push(<Badge className="m-1" color="primary" pill>{other_classes[arg]} Prep</Badge>);
                                     }

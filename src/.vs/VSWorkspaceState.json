@@ -4,11 +4,8 @@
     "\\assets",
     "\\assets\\img",
     "\\components",
-    "\\components\\Navbars",
-    "\\views",
-    "\\views\\examples",
-    "\\views\\IndexSections"
+    "\\views"
   ],
-  "SelectedNode": "\\views\\IndexSections\\Typography.js",
+  "SelectedNode": "\\views\\Index.js",
   "PreviewInSolutionExplorer": false
 }
