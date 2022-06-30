@@ -138,7 +138,7 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://discord.gg/mvv3yhq688"
+                          href="https://docs.google.com/forms/d/1U5Qai_5Yj1g-p3OMeJyh1xwMG4vgAX0aLml_dwfdwF0/viewform"
                           target="_blank"
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">

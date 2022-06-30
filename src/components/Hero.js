@@ -69,7 +69,7 @@ class Hero extends React.Component {
                       <Button
                         className="btn-icon mb-3 mb-sm-0 "
                         color="github"
-                        href="https://discord.gg/mvv3yhq688"
+                        href="https://docs.google.com/forms/d/1U5Qai_5Yj1g-p3OMeJyh1xwMG4vgAX0aLml_dwfdwF0/viewform"
                         size="lg"
                         target="_blank"
                       >
