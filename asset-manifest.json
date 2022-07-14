@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/InterSTEM-learning/static/css/main.66a478cb.css",
-    "main.js": "/InterSTEM-learning/static/js/main.cbad9d60.js",
+    "main.js": "/InterSTEM-learning/static/js/main.b99978b2.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/InterSTEM-learning/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/interstem-learning-logo.png": "/InterSTEM-learning/static/media/interstem-learning-logo.64154d7ef449396887e3.png",
     "static/media/fontawesome-webfont.eot": "/InterSTEM-learning/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -16,10 +16,10 @@
     "static/media/nucleo-icons.woff2": "/InterSTEM-learning/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
     "index.html": "/InterSTEM-learning/index.html",
     "main.66a478cb.css.map": "/InterSTEM-learning/static/css/main.66a478cb.css.map",
-    "main.cbad9d60.js.map": "/InterSTEM-learning/static/js/main.cbad9d60.js.map"
+    "main.b99978b2.js.map": "/InterSTEM-learning/static/js/main.b99978b2.js.map"
   },
   "entrypoints": [
     "static/css/main.66a478cb.css",
-    "static/js/main.cbad9d60.js"
+    "static/js/main.b99978b2.js"
   ]
 }
