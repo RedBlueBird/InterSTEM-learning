@@ -85,7 +85,7 @@ class Profile extends React.Component {
                         let board = [{
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Andy Yang",
-                            title: ["Co-Founder", "Web Director", "Education Director"],
+                            title: ["President", "Co-Founder", "Web Director", "Education Director"],
                             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         }, {
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
