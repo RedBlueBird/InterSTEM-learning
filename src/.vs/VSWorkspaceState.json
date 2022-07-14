@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\css",
     "\\assets\\img",
     "\\components",
     "\\views"
   ],
-  "SelectedNode": "\\components\\Navbar.js",
+  "SelectedNode": "\\index.js",
   "PreviewInSolutionExplorer": false
 }

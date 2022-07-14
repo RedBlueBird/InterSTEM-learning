@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Card, Container, Row, Col } from "reactstrap";
+import { Button, Card, Container, Row, Col, Badge } from "reactstrap";
 
 // core components
 import Navbar from "components/Navbar.js";
@@ -84,47 +84,54 @@ class Profile extends React.Component {
                         let fields = [];
                         let board = [{
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
-                            name: "David Su",
-                            title: ["Marketing Director"]
-                        }, {
-                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
-                            name: "Jeffrey Zhang",
-                            title: ["Web Director"]
-                        }, {
-                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Andy Yang",
-                            title: ["Co-Founder", "Web Director", "Education Director"]
+                            title: ["Co-Founder", "Web Director", "Education Director"],
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         }, {
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Kiratjit Singh",
-                            title: ["Co-Founder", "Social Outreach Director", "Operations Director"]
+                            title: ["Co-Founder", "Social Outreach", "Operations Director"],
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                         }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "Jeffrey Zhang",
+                            title: ["Web Director"],
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                         }, {
+                            photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                            name: "David Su",
+                            title: ["Marketing Director"],
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         }, {
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Jason Kim",
-                            title: ["Recruitment Director"]
+                            title: ["Recruitment Director"],
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         }, {
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Deborah Gadri",
-                            title: ["Design Director"]
+                            title: ["Design Director"],
+                            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                         }
                         ];
                         for (let arg in board) {
                             fields.push(
-                                <Col className="mb-5 mb-lg-0" lg="3" md="6">
-                                    <div className="px-4">
+                                <Col className="mb-5 mb-lg-5" lg="6" md="12">
+                                    <div className="align-items-center justify-content-start">
                                         <img
                                             alt="..."
                                             className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                             src={board[arg].photo}
                                             style={{ width: "200px" }}
                                         />
-                                        <div className="pt-4 text-center">
+                                        <div className="pt-4 flex-grow-1 text-center">
                                             <h5 className="title">
-                                            <span className="d-block mb-1">{board[arg].name}</span>
-                                                <small className="h6 text-muted">
-                                                    {board[arg].title.map((title)=>(<>{title}<br/></>))}
-                                                </small>
+                                                <span className="d-block mb-1">{board[arg].name}</span>
+                                                {board[arg].title.map((title)=>(<><Badge className="text-muted m-1" pill>{title}</Badge></>))}
                                             </h5>
+                                            <h7>
+                                                {board[arg].description}
+                                            </h7>
                                         </div>
                                     </div>
                                 </Col>
