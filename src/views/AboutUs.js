@@ -93,7 +93,7 @@ class Profile extends React.Component {
                         }, {
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Andy Yang",
-                            title: ["Co-Founder", "Web Director", "Education Director"]
+                            title: ["President", "Co-Founder", "Web Director", "Education Director"]
                         }, {
                             photo: "https://via.placeholder.com/200x200.png?text=ISL",
                             name: "Kiratjit Singh",
