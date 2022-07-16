@@ -158,13 +158,33 @@ class DemoNavbar extends React.Component {
                   </UncontrolledDropdown>
 
                 <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      to="/about-us" tag={Link}
-                    >
-                      <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">About Us</span>
-                    </NavLink>
+                  <NavLink
+                    className="nav-link-icon"
+                    to="/about-us" tag={Link}
+                  >
+                    <i className="ni ni-ui-04 d-lg-none mr-1" />
+                    <span className="nav-link-inner--text">About Us</span>
+                  </NavLink>
+                </NavItem>
+
+                <NavItem>
+                  <NavLink
+                    className="nav-link-icon"
+                    to="/#faq" tag={HashLink}
+                  >
+                  <i className="ni ni-ui-04 d-lg-none mr-1" />
+                  <span className="nav-link-inner--text">FAQ</span>
+                  </NavLink>
+                </NavItem>
+
+                <NavItem>
+                  <NavLink
+                    className="nav-link-icon"
+                    to="/#sponsors" tag={HashLink}
+                  >
+                    <i className="ni ni-ui-04 d-lg-none mr-1" />
+                    <span className="nav-link-inner--text">Sponsors</span>
+                  </NavLink>
                 </NavItem>
 
                 <UncontrolledDropdown nav>
@@ -173,14 +193,8 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Offerings</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/#subjects" tag={HashLink}>
-                            Subjects
-                      </DropdownItem>
-                      <DropdownItem to="/#faq" tag={HashLink}>
-                            FAQ
-                      </DropdownItem>
-                      <DropdownItem to="/#sponsors" tag={HashLink}>
-                            Sponsors
+                      <DropdownItem to="/subject/physics1" tag={HashLink}>
+                            AP Physics 1
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>

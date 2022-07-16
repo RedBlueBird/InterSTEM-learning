@@ -25,6 +25,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import AboutUs from "views/AboutUs.js";
+import Subjects from "views/Subjects.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -34,6 +35,9 @@ ReactDOM.render(
         path="/about-us"
         exact
         render={props => <AboutUs {...props} />}
+      />
+      <Route path="/subject/:subjectName"
+        component={Subjects}
       />
       <Redirect to="/" />
     </Switch>
