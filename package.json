@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
   },
-  "homepage": "https://redbluebird.github.io/InterSTEM-learning/",
+  "homepage": "http://www.interstemlearning.org/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
