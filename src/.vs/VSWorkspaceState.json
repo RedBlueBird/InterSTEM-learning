@@ -4,9 +4,10 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\img",
+    "\\assets\\img\\team",
     "\\components",
     "\\views"
   ],
-  "SelectedNode": "\\index.js",
+  "SelectedNode": "\\assets\\css\\argon-design-system-react.css",
   "PreviewInSolutionExplorer": false
 }
