@@ -85,13 +85,8 @@ class Profile extends React.Component {
                       let board = [{
                         photo: require("assets/img/team/andy-yang.png"),
                         name: "Andy Yang",
-                        title: ["President", "Co-Founder", "Web Director", "Education Director"],
+                        title: ["President", "Founder", "Education Director"],
                         description: "Andy is a junior at Dutch Fork High School in South Carolina. He is an AIME qualifier, as well as winning other numerous math and science awards. Andy's main interests are math, biology, law, and computer science. Outside of Interstem Learning, Andy likes to play soccer, basketball, and chess."
-                      }, {
-                        photo: "https://via.placeholder.com/200x200.png?text=ISL",
-                        name: "Kiratjit Singh",
-                        title: ["Co-Founder", "Social Outreach", "Operations Director"],
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       }, {
                         photo: require("assets/img/team/jeffrey-zhang.jpg"),
                         name: "Jeffrey Zhang",
@@ -108,12 +103,7 @@ class Profile extends React.Component {
                         title: ["Recruitment Director"],
                         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                       }, {
-                        photo: "https://via.placeholder.com/200x200.png?text=ISL",
-                        name: "Deborah Gadri",
-                        title: ["Design Director"],
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                      }, {
-                        photo: "https://via.placeholder.com/200x200.png?text=ISL",
+                        photo: require("assets/img/team/ethan-yan.jpg"),
                         name: "Yifei Yan",
                         title: ["Secretary"],
                         description: "Yifei is a junior at the American School in London in London. He has won numerous math awards and is currently working as a lead programmer for his award winning robotics team. Yifei's main interests vary from math, computer science, physics, to music and robotics. In his spare time, Yifei plays volleyball and practices the violin."
