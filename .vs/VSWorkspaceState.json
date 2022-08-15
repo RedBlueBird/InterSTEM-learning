@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\assets",
     "\\src\\components",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\components\\Hero.js",
+  "SelectedNode": "\\CNAME",
   "PreviewInSolutionExplorer": false
 }

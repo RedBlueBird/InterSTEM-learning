@@ -42,7 +42,7 @@ class Subjects extends React.Component {
           let subject = this.props.match.params.subjectName;
           return (
             <>
-              <section className="section section-lg section-shaped bg-gradient-gray-dark">
+              <section className="section section-lg section-shaped bg-gray-dark">
                 <div className="shape shape-style-1 shape-default">
                   <span />
                   <span />

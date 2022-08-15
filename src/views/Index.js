@@ -16,6 +16,8 @@
 
 */
 import React from "react";
+import 'views/App.css';
+
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import { HashLink } from "react-router-hash-link";
@@ -66,7 +68,7 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/theme/promo-1.png")}
+                    src={require("assets/img/theme/workspace.jpg")}
                   />
                 </Col>
 
@@ -82,7 +84,7 @@ class Landing extends React.Component {
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge
-                              className="badge-circle mr-3"
+                              className="badge-circle mr-3 bg-gray-dark"
                               color="default"
                             >
                               <i className="fa fa-map" />
@@ -99,7 +101,7 @@ class Landing extends React.Component {
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge
-                              className="badge-circle mr-3"
+                              className="badge-circle mr-3 bg-gray-dark"
                               color="default"
                             >
                               <i className="fa fa-flash" />
@@ -114,7 +116,7 @@ class Landing extends React.Component {
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge
-                              className="badge-circle mr-3"
+                              className="badge-circle mr-3 bg-gray-dark"
                               color="default"
                             >
                               <i className="fa fa-flag" />
@@ -135,80 +137,80 @@ class Landing extends React.Component {
           </section>
 
         <section className="section section-lg">
-            <Container>
-                <Row className="row-grid align-items-center">
-                    <Col className="order-md-1" md="6">
-                        <img
-                            alt="..."
-                            className="img-fluid floating"
-                            src={require("assets/img/theme/promo-1.png")}
-                        />
-                    </Col>
+          <Container>
+            <Row className="row-grid align-items-center">
+              <Col className="order-md-1" md="6">
+                <img
+                  alt="..."
+                  className="img-fluid floating"
+                  src={require("assets/img/theme/team.png")}
+                />
+              </Col>
 
-                    <Col className="order-md-2" md="6">
-                        <div className="pl-md-5">
-                            <h3>What We Are</h3>
-                            <p>
-                                Qualified team of tutors include accomplished students ranging from olympiad medalists to SAT perfect scorers.
-                            </p>
-                            <ul className="list-unstyled mt-5">
-                                <li className="py-2">
-                                    <div className="d-flex align-items-center">
-                                        <div>
-                                            <Badge
-                                                className="badge-circle mr-3"
-                                                color="default"
-                                            >
-                                                <i className="fa fa-shield" />
-                                            </Badge>
-                                        </div>
-                                        <div>
-                                            <h6 className="mb-0">
-                                                Resilient infront challenges
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="d-flex align-items-center">
-                                        <div>
-                                            <Badge
-                                                className="badge-circle mr-3"
-                                                color="default"
-                                            >
-                                                <i className="fa fa-wrench" />
-                                            </Badge>
-                                        </div>
-                                        <div>
-                                            <h6 className="mb-0">Creative under constraints</h6>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="py-2">
-                                    <div className="d-flex align-items-center">
-                                        <div>
-                                            <Badge
-                                                className="badge-circle mr-3"
-                                                color="default"
-                                            >
-                                                <i className="fa fa-heart" />
-                                            </Badge>
-                                        </div>
-                                        <div>
-                                            <h6 className="mb-0">
-                                                Collaborative with peers
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
+              <Col className="order-md-2" md="6">
+                <div className="pl-md-5">
+                  <h3>What We Are</h3>
+                  <p>
+                    Qualified team of tutors include accomplished students ranging from olympiad medalists to SAT perfect scorers.
+                  </p>
+                  <ul className="list-unstyled mt-5">
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3 bg-gray-dark"
+                            color="default"
+                          >
+                            <i className="fa fa-shield" />
+                          </Badge>
                         </div>
-                    </Col>
-                </Row>
-            </Container>
+                        <div>
+                          <h6 className="mb-0">
+                            Resilient infront challenges
+                          </h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3 bg-gray-dark"
+                            color="default"
+                          >
+                            <i className="fa fa-wrench" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">Creative under constraints</h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <Badge
+                            className="badge-circle mr-3 bg-gray-dark"
+                            color="default"
+                          >
+                            <i className="fa fa-heart" />
+                          </Badge>
+                        </div>
+                        <div>
+                          <h6 className="mb-0">
+                            Collaborative with peers
+                          </h6>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </section>
 
-          <section className="section pb-0 bg-gradient-gray-dark" id="subjects">
+        <section className="section pb-0 bg-gray-dark" id="subjects">
             <Container>
               <Col className="row-grid align-items-center">
                   <div className="d-flex px-3">
@@ -326,7 +328,7 @@ class Landing extends React.Component {
 
         <section className="section section-lg mt-2">
             <Container>
-                <Card className="bg-gradient-gray-dark shadow-lg border-0">
+                <Card className="shadow-lg border-0 bg-gray-dark">
                     <div className="p-5">
                         <Row className="align-items-center">
                             <Col lg="8">
@@ -351,7 +353,7 @@ class Landing extends React.Component {
         </section>
 
                 
-          <section className="section section-lg bg-gradient-gray-dark" id="faq">
+          <section className="section section-lg bg-gray-dark" id="faq">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">

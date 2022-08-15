@@ -25,7 +25,7 @@ class Hero extends React.Component {
     return (
       <>
         <div className="position-relative">
-          <section className="section section-hero bg-gradient-gray-dark">
+          <section className="section section-hero bg-gradient-gray-dark hero-image">
             <div className="shape shape-style-1 shape-default">
               <span className="span-150" />
               <span className="span-50" />
@@ -42,14 +42,14 @@ class Hero extends React.Component {
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
-                  <Col className="text-center" lg="6">
+                  <Col className="text-center p-3 glass" lg="6">
                     <h1 className="text-white">
                         InterSTEM Learning
                     </h1>
 
                     <p className="lead text-white">
                       Serving free online classes for students around the world
-                     </p>
+                      </p>
 
                     <div className="btn-wrapper mt-5">
                       <Button
@@ -59,15 +59,15 @@ class Hero extends React.Component {
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-group" />
+                          <i className="fa fa-group gray-dark"/>
                         </span>
                         <span className="btn-inner--text">
-                            Sign up as 
-                            <span className="text-warning mr-1"> Student</span>
+                          Sign up as 
+                          <span className="mr-1 text-blue"> Student</span>
                         </span>
                       </Button>{" "}
                       <Button
-                        className="btn-icon mb-3 mb-sm-0 "
+                        className="btn-icon mb-3 mb-sm-0 bg-gray-dark"
                         color="github"
                         href="https://docs.google.com/forms/d/1U5Qai_5Yj1g-p3OMeJyh1xwMG4vgAX0aLml_dwfdwF0/viewform"
                         size="lg"
@@ -78,10 +78,10 @@ class Hero extends React.Component {
                         </span>
                         <span className="btn-inner--text">
                           Sign up as
-                          <span className="text-warning mr-1"> Tutor</span>
+                          <span className="mr-1 text-blue"> Tutor</span>
                         </span>
                       </Button>
-                                    </div>
+                    </div>
 
                   </Col>
                 </Row>

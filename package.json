@@ -1,11 +1,11 @@
 {
-  "name": "argon-design-system-react",
+  "name": "interstem learning",
   "version": "1.1.0",
-  "description": "React version of Argon Design System by Creative Tim",
+  "description": "Serving free online classes for students around the world",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
+    "url": "git+https://github.com/RedBlueBird/InterSTEM-learning"
   },
   "keywords": [
     "react",
@@ -25,7 +25,7 @@
   "author": "Creative Tim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
+    "url": "https://github.com/RedBlueBird/InterSTEM-learning/issues"
   },
   "homepage": "http://www.interstemlearning.org/",
   "scripts": {
